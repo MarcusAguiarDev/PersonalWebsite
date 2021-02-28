@@ -1,0 +1,26 @@
+  .container {
+    height: 64px;
+    .logo {
+      .avatar {
+        height: 56px;
+      }
+
+      .title {
+        font-weight: bold;
+        font-size: 24pt;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        margin-left: 12px;
+        //font-size: 16pt;
+      }
+    }
+
+    .menu {
+      button {
+        font-size: 14pt;
+        font-weight: bold;
+      }
+    }
+  }

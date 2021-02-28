@@ -1,0 +1,24 @@
+mat-card {
+  h1 {
+    font-size: 26pt;
+    font-weight: bold;
+    line-height: 30pt;
+    margin-bottom: 50px;
+  }
+
+  .tecnologiesContainer {
+
+    width: 100%;
+
+    div {
+      margin-bottom: 50px;
+
+      img {
+        max-height: 200px;
+        width: auto;
+        height: auto;
+      }
+    }
+
+  }
+}

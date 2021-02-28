@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "_variables.scss";
+@import "_responsivity.scss";
+
+//Add Font
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+html,
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+body {
+  margin: 0;
+  font-family: 'DotGothic16', Courier, monospace !important;
+}
+
+//Material table
+.mat-table tbody tr:hover{
+  background-color: #f1f1f1;
+}
+
+//THEME
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+//THEME font
+@import '~@angular/material/theming';
+$custom-typography: mat-typography-config(
+  $font-family: 'inherit'
+);
+@include mat-core($custom-typography);
+
+
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
