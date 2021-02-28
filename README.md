@@ -1,6 +1,6 @@
-# MaWeb
+# <img src="src\assets\avatar.png" alt="avatar" height="60px"/>My Personal Website 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2. 
 
 ## Development server
 
